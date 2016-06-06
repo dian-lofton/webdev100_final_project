@@ -49,6 +49,9 @@ table {
 
 /*this is where the css reset ends*/
 
+.catalog-container{
+  position:static;
+}
 h1{
   font-family: Helvetica, Arial, san-serif;
   font-size: 20px;
@@ -61,7 +64,8 @@ h1{
 img.logo{
   height:65px;
   width:65px;
-  margin-top: 13px;
+  margin-top: -200px;
+  margin-bottom: 42px;
   margin-left: 220px;
 }
 body{
@@ -75,7 +79,7 @@ body{
   height:150px;
   width:100%;
   background:#fff;
-  border:1px;
+  border-bottom:5px;
   border-color:rgba(255, 247, 230, .8);
 }
 /*this makes a centered horizontal nav(!)*/
@@ -97,6 +101,7 @@ ul.bar{
   list-style:none;
 }
 .topNav li{
+  position: relative;
   display:inline;
   padding:20px;
   text-transform:uppercase;
@@ -106,16 +111,16 @@ ul.bar{
 ul.topNav{
   list-style:none;
   margin-left:350px;
-  margin-top:20px;
+  margin-top:-40px;
 }
 .search{
   float:right;
   margin-right:225px;
-  margin-top: 35px;
+  margin-top: -92px;
 } 
 .leftnav{
   display:block;
-  position:absolute;
+  position:relative;
   height:463px;
   width:165px;
   margin: 20px 0 0 220px;
@@ -133,17 +138,23 @@ ul.leftnav{
   }
 .bold-list-item{
   font-family: Arial, Verdana, san-serif;
-  font-size:16px;
-  font-style: bold;
-  font-color: #e60000;
+  font-size:15px;
+  font-style: bold; 
 }
 .hero{
   position:relative;
   float:right;
   height:450px;
   margin-right:225px;
-  margin-top:20px;
-
+  margin-top:-480px;
+}
+.9-photo-gird.img{
+  display: inline-block;
+  width: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  vertical-align: 30px;
 }
 .carousel{
   width:650px;
