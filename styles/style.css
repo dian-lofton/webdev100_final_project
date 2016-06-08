@@ -106,7 +106,6 @@ ul.bar{
   padding:20px;
   text-transform:uppercase;
   font-family: Arial, Verdana, san-serif;
- 
 }
 ul.topNav{
   list-style:none;
@@ -117,11 +116,12 @@ ul.topNav{
   float:right;
   margin-right:225px;
   margin-top: -92px;
+  font-family: Arial, Verdana, san-serif;
 } 
 .leftnav{
   display:block;
   position:relative;
-  height:463px;
+  height:343px;
   width:165px;
   margin: 20px 0 0 220px;
   padding-top:15px;
@@ -145,25 +145,26 @@ ul.leftnav{
   position:relative;
   float:right;
   height:450px;
+  width:640px;
   margin-right:225px;
-  margin-top:-480px;
+  margin-top:-360px;
+  padding-bottom:5px;
 }
-.9-photo-gird.img{
-  display: inline-block;
-  width: 200px;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  vertical-align: 30px;
+.gallery{
+  position:inline-block;
+  float:right;
+  max-height:500px;
+  margin-right:225px;
+  padding-top:6px;
 }
-.carousel{
+/*.carousel{
   width:650px;
   height: 522px;
   margin-left: 402px;
   margin-top: -523px;
   border:1px solid black;
   border-color:#efefef;
-}
+}*/
 ol {
   font-size: 80%;
 }
@@ -198,7 +199,7 @@ a:link {
 }
 
 a:visited {
-    color: #008000;
+    color: #e60000;
 }
 
 a:hover {
